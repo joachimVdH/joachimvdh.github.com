@@ -1,0 +1,194 @@
+/* CONTENTS
+-----------------------------------------
+1. Common Styles
+2. Screen Styles
+3. Media Queries
+4. Print Styles
+*/
+
+/*************************************************************************************
+ * 1. Common Styles
+ ************************************************************************************/
+
+/*@import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);*/
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:300|Open+Sans+Condensed:700);
+
+/* apply a natural box layout model to all elements */
+/* http://paulirish.com/2012/box-sizing-border-box-ftw/ */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+.chromeframe {position: absolute; top: 0;}
+
+@-ms-viewport {width:device-width;}
+
+html {
+  width:100%; 
+  margin:0; 
+  padding:0; 
+  font-size:100%; 
+  overflow-y:scroll;
+  -webkit-text-size-adjust:100%;
+  -ms-text-size-adjust:100%;
+  text-size-adjust:100%;
+  -webkit-font-smoothing:antialiased;
+  -moz-font-smoothing:antialiased;
+  font-smoothing:antialiased;
+}
+
+body {
+  width:100%; 
+  margin-top: 7em;
+  color:#333; 
+  
+  
+  
+  /*font:1.5em/1.9em Lato, "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;*/ 
+/*  background:#fff;*/
+  background-image: url(../img/responsive-guide-16px.jpg);
+  text-align: center;
+  font: 1/1.3 'Ubuntu', sans-serif;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
+  display:block;
+}
+
+img{
+  max-width: 100%;
+}
+
+a {
+  color: #00f;
+  text-decoration: none;
+}
+a:hover {
+  color: #000070;
+  text-decoration: underline ;;
+}
+
+/* Ok, this is where the fun starts.
+-------------------------------------------------------------------------------*/
+
+/* new Linux- and Windows-friendly sans-serif font stack: http://mky.be/fontstack */
+/*body {font: 13px Helmet, Freesans, sans-serif;}*/
+
+/* using local fonts? make sure to read up on Paul Irish's 
+	Bulletproof @font-face syntax: http://mky.be/font-face/bulletproof/ */
+
+/* we like off-black for text */
+/*body, select, input, textarea {color: #333;}*/
+
+
+/* Custom text-selection colors (remove any text shadows: twitter.com/miketaylr/status/12228805301) */
+::-moz-selection{background: #fcd700; color: #fff; text-shadow: none;}
+::selection {background: #fcd700; color: #fff; text-shadow: none;} 
+
+/*	j.mp/webkit-tap-highlight-color */
+a:link {-webkit-tap-highlight-color: #fcd700;} 
+
+ins {background-color: #fcd700; color: #000; text-decoration: none;}
+mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: bold;}
+
+/* Mozilla dosen't style place holders by default */
+input:-moz-placeholder { color:#a9a9a9; }
+textarea:-moz-placeholder { color:#a9a9a9; }
+
+
+/*************************************************************************************
+ * 2. Screen Styles
+ ************************************************************************************/
+ header{
+   text-align: center;
+ }
+ section>header{
+   font-size: 2em;
+   font-weight: bold;
+   margin-top: 1em;
+ }
+ .title{
+   font-family: 'Open Sans Condensed', sans-serif;
+   font-weight: bold;
+ }
+
+/*************************************************************************************
+ * 3. Media Queries
+ ************************************************************************************/ 
+
+/* 320px Smartphones (portrait)  */
+@media only screen and (max-width : 20em) {
+  body{
+    font-size: 0.8em;
+    line-height: 1.3em;
+  }
+  .title{
+    font-size: 1em;
+  }
+}
+
+/* 321px Smartphones (landscape) */
+@media only screen and (min-width : 20.0625em) {
+  .title{
+    font-size: 1.5em;
+  }
+}
+
+/* 444 */
+@media only screen and (max-width:29.4375em) {
+
+  .title{
+    font-size: 2em;
+  }
+}
+
+
+/* calc */
+@media only screen and (min-width:29.4375em) {
+
+  .title{
+    font-size: 2.35em;
+  }
+}
+
+/* 580 */
+@media only screen and (min-width:36.25em) {
+
+  .title{
+    font-size: 2.942em;
+  }
+}
+
+/* 700px */
+@media only screen and (min-width:43.75em) {
+  
+  .title{
+    font-size: 3.619em;
+  }
+  
+}
+
+/* 960px */
+@media only screen and (min-width:60em) {
+  
+  .title{
+    font-size: 5em;
+  }
+  
+}
+
+/* 1180px */
+@media only screen and (min-width:73.75em) {
+  
+  .title{
+    font-size: 6em;
+  }
+  
+}
+/*************************************************************************************
+ * 4. Print Styles
+ ************************************************************************************/
+ 
+@media print {
+
+
+
+}
