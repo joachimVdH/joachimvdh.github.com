@@ -11,7 +11,7 @@
  ************************************************************************************/
 
 /*@import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);*/
-@import url(http://fonts.googleapis.com/css?family=Ubuntu:300|Open+Sans+Condensed:700);
+/*@import url(http://fonts.googleapis.com/css?family=Ubuntu:300|Open+Sans+Condensed:700);*/
 
 /* apply a natural box layout model to all elements */
 /* http://paulirish.com/2012/box-sizing-border-box-ftw/ */
@@ -38,7 +38,7 @@ html {
 
 body {
   width:100%; 
-  margin-top: 7em;
+  margin-top: 6em;
   color:#333; 
   
   
@@ -47,9 +47,13 @@ body {
   background:#fff;
   /*background-image: url(../img/responsive-guide-16px.jpg);*/
   text-align: center;
-  font-family: 'Ubuntu', sans-serif;
-  font-size: 1em;
-  line-height: 1.3em;
+  font-family: 'Raleway Light', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+b {
+  font-family: 'Raleway Bold', sans-serif;
 }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
@@ -66,7 +70,7 @@ a {
 }
 a:hover {
   color: #000070;
-  text-decoration: underline ;;
+  text-decoration: underline ;
 }
 
 /* Ok, this is where the fun starts.
@@ -103,6 +107,7 @@ textarea:-moz-placeholder { color:#a9a9a9; }
  header{
    text-align: center;
  }
+/*
  section>header{
    font-size: 2em;
    font-weight: bold;
@@ -113,6 +118,7 @@ textarea:-moz-placeholder { color:#a9a9a9; }
    font-weight: bold;
    font-size: 1.9em;
  }
+*/
 
 /*************************************************************************************
  * 3. Media Queries
