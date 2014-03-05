@@ -149,12 +149,22 @@ header {
  * 3. Media Queries
  ************************************************************************************/
 
+/* 280px */
+
+@media only screen and (max-width: 17.5em) {
+  body {
+    font-size: 0.7em;
+  }
+}
 /* 320px Smartphones (portrait)  */
 
-@media only screen and (max-width: 20em) {
+/*@media only screen and (max-width: 20em) {}*/
+
+/* 390px */
+
+@media only screen and (max-width: 24.375em) {
   body {
     font-size: 0.9em;
-    /*    line-height: 1.6em;*/
   }
 }
 /* 321px Smartphones (landscape) */
