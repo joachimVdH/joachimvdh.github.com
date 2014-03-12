@@ -1,3 +1,6 @@
+@import "compass/reset";
+
+
 /* CONTENTS
 -----------------------------------------
 1. Common Styles
@@ -31,32 +34,33 @@
   width: device-width;
 }
 html {
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  font-size: 100%;
+//  width: 100%;
+//  margin: 0;
+//  padding: 0;
+//  font-size: 100%;
   overflow-y: scroll;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  -webkit-font-smoothing: antialiased;
-  -moz-font-smoothing: antialiased;
-  font-smoothing: antialiased;
+//  -webkit-font-smoothing: antialiased;
+//  -moz-font-smoothing: antialiased;
+//  font-smoothing: antialiased;
 }
 body {
-  width: 100%;
-  margin-top: 6em;
+//width: 100%;
+	margin-top: 6em;
   color: #333;
   /*font:1.5em/1.9em Lato, "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;*/
   background: #fff;
   /*background-image: url(../img/responsive-guide-16px.jpg);*/
   text-align: center;
-  font-family: 'Raleway Light', sans-serif;
+  font-family: 'Myriad Pro',Helvetica,Arial,sans-serif;
+	font-weight:200;
   font-size: 1.3em;
   line-height: 1.5em;
 }
 b {
-  font-family: 'Raleway Bold', sans-serif;
+	font-weight:600;
 }
 article,
 aside,
@@ -104,6 +108,7 @@ a:hover {
 
 /* Custom text-selection colors (remove any text shadows: twitter.com/miketaylr/status/12228805301) */
 
+/*
 ::-moz-selection {
   background: #fcd700;
   color: #fff;
@@ -114,30 +119,33 @@ a:hover {
   color: #fff;
   text-shadow: none;
 }
+*/
+
 /*	j.mp/webkit-tap-highlight-color */
 
 a:link {
   -webkit-tap-highlight-color: #fcd700;
 }
-ins {
-  background-color: #fcd700;
-  color: #000;
-  text-decoration: none;
-}
-mark {
-  background-color: #fcd700;
-  color: #000;
-  font-style: italic;
-  font-weight: bold;
-}
+//ins {
+//  background-color: #fcd700;
+//  color: #000;
+//  text-decoration: none;
+//}
+//mark {
+//  background-color: #fcd700;
+//  color: #000;
+//  font-style: italic;
+//  font-weight: bold;
+//}
+
 /* Mozilla dosen't style place holders by default */
 
-input:-moz-placeholder {
-  color: #a9a9a9;
-}
-textarea:-moz-placeholder {
-  color: #a9a9a9;
-}
+//input:-moz-placeholder {
+//  color: #a9a9a9;
+//}
+//textarea:-moz-placeholder {
+//  color: #a9a9a9;
+//}
 /*************************************************************************************
  * 2. Screen Styles
  ************************************************************************************/
@@ -200,3 +208,4 @@ header {
  ************************************************************************************/
 
 /*@media print {}*/
+

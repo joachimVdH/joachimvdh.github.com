@@ -1,0 +1,20 @@
+{
+  "name": "4d.be",
+  "version": "0.1.0",
+  "devDependencies": {
+    "grunt": "^0.4.3",
+    "grunt-contrib-sass": "^0.7.3",
+    "grunt-contrib-compass": "^0.7.2",
+    "grunt-contrib-watch": "^0.5.3",
+    "matchdep": "^0.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/joachimVdH/joachimvdh.github.com.git"
+  },
+  "author": "Joachim Van der Hoeven",
+  "bugs": {
+    "url": "https://github.com/joachimVdH/joachimvdh.github.com/issues"
+  },
+  "homepage": "http://4d.be"
+}
