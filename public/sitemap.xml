@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>http://4d.be/404.html</loc>
+</url>
+<url>
+<loc>http://4d.be/about/</loc>
+</url>
+<url>
+<loc>http://4d.be/cv/</loc>
+</url>
+<url>
+<loc>http://4d.be/apps/AuraSoma/</loc>
+</url>
+<url>
+<loc>http://4d.be/</loc>
+</url>
+<url>
+<loc>http://4d.be/apps/myProxidata/</loc>
+</url>
+<url>
+<loc>http://4d.be/bower_components/Ionicons/cheatsheet.html</loc>
+<lastmod>2016-06-18T16:36:56+02:00</lastmod>
+</url>
+<url>
+<loc>http://4d.be/bower_components/base/dist/index.html</loc>
+<lastmod>2016-07-10T01:08:48+02:00</lastmod>
+</url>
+<url>
+<loc>http://4d.be/bower_components/base/src/index.html</loc>
+<lastmod>2016-07-10T01:08:48+02:00</lastmod>
+</url>
+<url>
+<loc>http://4d.be/bower_components/picturefill/index.html</loc>
+<lastmod>2016-06-07T17:11:55+02:00</lastmod>
+</url>
+</urlset>

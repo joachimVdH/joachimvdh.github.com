@@ -1,0 +1,38 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %} @ {{ site.title }}</title>
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="author" content="Joachim Van der Hoeven" />
+  <meta name="Copyright" content="Copyright Joachim Van der Hoeven 2016. All Rights Reserved." />
+  <meta name="google-site-verification" content="uNQITMtE0nRZKVo3gHha1rHRMvu6jUN8gcq0pLUSVkw" />
+  
+  <style>
+    @font-face {
+      font-family: 'Open Sans';
+      src: url(https://fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3bO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
+      font-style: normal; font-weight: 400;
+    }
+    @font-face {
+      font-family: 'Open Sans';
+      src: url(https://fonts.gstatic.com/s/opensans/v13/k3k702ZOKiLJc3WVjuplzKRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
+      font-style: normal; font-weight: 700;
+    }
+  </style>
+  <!-- <script>document.createElement( "picture" );</script> -->
+
+
+  <!-- <link rel="shortcut icon" href="img/favicon.png">
+  <link rel="apple-touch-icon" sizes="57x57" href="/img/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/img/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/img/apple-touch-icon-114x114.png"> -->
+
+
+  <link rel="stylesheet" href="{{ "/css/style.css" | prepend: site.baseurl }}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+  <!-- <script src="{{ "/bower_components/picturefill/dist/picturefill.min.js" | prepend: site.baseurl }}" async></script> -->
+
+</head>

@@ -1,0 +1,34 @@
+{
+  "name": "base",
+  "version": "3.1.5",
+  "homepage": "http://matthewhartman.github.io/base/",
+  "authors": [
+    "Matthew Hartman <matthewhartman@gmail.com>"
+  ],
+  "description": "A Rock Solid, Responsive HTML/CSS Framework built to work on all devices big and small.",
+  "keywords": [
+    "css",
+    "scss",
+    "framework",
+    "mobile-first",
+    "lightweight",
+    "responsive"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "3.1.5",
+  "_resolution": {
+    "type": "version",
+    "tag": "v3.1.5",
+    "commit": "064eb045be8fe4b06451b2e2ef8ff3711726b2f9"
+  },
+  "_source": "https://github.com/matthewhartman/base.git",
+  "_target": "^3.0.2",
+  "_originalSource": "base"
+}
