@@ -19,5 +19,5 @@ markdown: kramdown
 destination: public
 exclude: ["Rakefile", "README.md", "public", "jekyll", "Gemfile", "Guardfile","node_modules"]
 
-gems:
+plugins:
   - jekyll-sitemap
